@@ -77,12 +77,13 @@ python manage.py migrate
 ````
 Para inserir seeders(fixtures) no seu banco de dados, execute o seguinte comando:
 ````shell
-python manage.py loaddata users.json
+python manage.py loaddata auth/fixtures/users.json
 python manage.py loaddata people.json
 python manage.py loaddata sellers.json
 python manage.py loaddata customers.json
 python manage.py loaddata commissions.json
 python manage.py loaddata sales.json
+python manage.py loaddata products.json
 python manage.py loaddata items.json
 ````
 
