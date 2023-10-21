@@ -73,21 +73,21 @@ A variável **ALLOWED_HOSTS** é utilizada para destacar os domíniosda aplicaç
 ## 2.1. Terminal
 Antes de executar o comando de execução da API, é necessário criar o banco de dados. Execute o comando logo abaixo.
 ````shell
-$ python manage.py migrate
+python manage.py migrate
 ````
 Para inserir seeders(fixtures) no seu banco de dados, execute o seguinte comando:
 ````shell
-$ python manage.py loaddata users.json
-$ python manage.py loaddata people.json
-$ python manage.py loaddata sellers.json
-$ python manage.py loaddata customers.json
-$ python manage.py loaddata commissions.json
-$ python manage.py loaddata sales.json
-$ python manage.py loaddata items.json
+python manage.py loaddata users.json
+python manage.py loaddata people.json
+python manage.py loaddata sellers.json
+python manage.py loaddata customers.json
+python manage.py loaddata commissions.json
+python manage.py loaddata sales.json
+python manage.py loaddata items.json
 ````
 
 ````shell
-$ python manage.py runserver 0.0.0.0:8000
+python manage.py runserver 0.0.0.0:8000
 ````
 
 **Caso ocorra erro ao utilizar o termo python, subistitua por python3.**
@@ -95,7 +95,7 @@ $ python manage.py runserver 0.0.0.0:8000
 ## 2.2. Docker
 Apenas execute o seguinte comando para inicializar o container da aplicação via terminal ou IDE para inseir os seeders dentro do banco de dados.
 ````shell
-$ docker-compose start stationery-shop-api
+docker-compose start stationery-shop-api
 ````
 
 # Documentação
@@ -108,7 +108,7 @@ Caso deseje visualizar outra forma de documentação
 # Teste/Coverage
 Executar com coverage report:
 ````shell
-$ coverage run -m pytest
-$ coverage report
-$ coverage html  # abrir htmlcov/index.html em um navegador
+coverage run -m pytest
+coverage report
+coverage html  # abrir htmlcov/index.html em um navegador
 ````
