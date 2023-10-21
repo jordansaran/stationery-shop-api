@@ -32,11 +32,11 @@ router.register(r'sale', SaleViewSet, basename="sale")
 
 schema_view = get_schema_view(
    openapi.Info(
-      title="Sale API",
+      title="Stationery Shop API",
       default_version='v1.0.0',
-      description="Sale API",
+      description="Stationery Shop API",
       terms_of_service="",
-      contact=openapi.Contact(email="contato@sentineltech.com.br"),
+      contact=openapi.Contact(email="contato@jordanferreirasaran.com.br"),
       license=openapi.License(name="MIT License"),
    ),
    public=True,
@@ -44,7 +44,7 @@ schema_view = get_schema_view(
 )
 
 urlpatterns = [
-    path('', include(router.urls)),
+    path('api/', include(router.urls)),
     path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('admin/', admin.site.urls),
     path('swagger<format>/', schema_view.without_ui(cache_timeout=0), name='schema-json'),
