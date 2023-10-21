@@ -1,0 +1,46 @@
+[
+{
+    "model": "people.people",
+    "pk": 1,
+    "fields": {
+        "created_at": "2023-10-06T19:20:39.818Z",
+        "updated_at": "2023-10-06T19:20:39.818Z",
+        "name": "Regina Souza",
+        "email": "regina@gmail.com",
+        "phone": "11111111111"
+    }
+},
+{
+    "model": "people.people",
+    "pk": 2,
+    "fields": {
+        "created_at": "2023-10-06T19:20:56.771Z",
+        "updated_at": "2023-10-06T19:20:56.771Z",
+        "name": "Alexandre Gonçalvez",
+        "email": "alexandre@gmail.com",
+        "phone": "22222222222"
+    }
+},
+{
+    "model": "people.people",
+    "pk": 3,
+    "fields": {
+        "created_at": "2023-10-06T19:21:44.273Z",
+        "updated_at": "2023-10-06T19:21:44.273Z",
+        "name": "Lucas Montano",
+        "email": "lucas@gmail.com",
+        "phone": "33333333333"
+    }
+},
+{
+    "model": "people.people",
+    "pk": 4,
+    "fields": {
+        "created_at": "2023-10-06T19:22:00.099Z",
+        "updated_at": "2023-10-06T19:22:00.099Z",
+        "name": "Evelin Ferreira",
+        "email": "evelin@gmail.com",
+        "phone": "44444444444"
+    }
+}
+]

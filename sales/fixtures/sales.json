@@ -1,0 +1,24 @@
+[
+{
+    "model": "sales.sale",
+    "pk": 3,
+    "fields": {
+        "created_at": "2023-10-06T19:37:34.438Z",
+        "updated_at": "2023-10-06T19:37:34.438Z",
+        "client": 3,
+        "seller": 1,
+        "date_sale": "2023-10-06T19:32:48.175Z"
+    }
+},
+{
+    "model": "sales.sale",
+    "pk": 4,
+    "fields": {
+        "created_at": "2023-10-06T19:38:59.378Z",
+        "updated_at": "2023-10-06T19:38:59.378Z",
+        "client": 4,
+        "seller": 2,
+        "date_sale": "2023-10-06T19:32:48.175Z"
+    }
+}
+]

@@ -1,0 +1,12 @@
+[
+{
+    "model": "people.client",
+    "pk": 4,
+    "fields": {}
+},
+{
+    "model": "people.client",
+    "pk": 3,
+    "fields": {}
+}
+]
