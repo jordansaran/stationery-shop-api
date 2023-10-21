@@ -23,4 +23,11 @@ EXPOSE 8000
 
 CMD ["python", "manage.py", "flush", "--no-input"]
 CMD ["python", "manage.py", "migrate"]
+CMD ["python", "manage.py", "loaddata", "users.json"]
+CMD ["python", "manage.py", "loaddata", "people.json"]
+CMD ["python", "manage.py", "loaddata", "sellers.json"]
+CMD ["python", "manage.py", "loaddata", "customers.json"]
+CMD ["python", "manage.py", "loaddata", "commissions.json"]
+CMD ["python", "manage.py", "loaddata", "sales.json"]
+CMD ["python", "manage.py", "loaddata", "items.json"]
 CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
