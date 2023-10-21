@@ -1,0 +1,79 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "created_at": "2023-10-06T19:16:19.697Z",
+        "updated_at": "2023-10-06T19:16:19.697Z",
+        "product": "Caderno de Brochura",
+        "unitary_price": "8.20",
+        "commission": 5
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "created_at": "2023-10-06T19:16:35.560Z",
+        "updated_at": "2023-10-06T19:16:35.560Z",
+        "product": "Apontador c/ borracha",
+        "unitary_price": "9.80",
+        "commission": 5
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "created_at": "2023-10-06T19:16:47.426Z",
+        "updated_at": "2023-10-06T19:16:47.426Z",
+        "product": "Giz de cera curto",
+        "unitary_price": "11.00",
+        "commission": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "created_at": "2023-10-06T19:16:59.073Z",
+        "updated_at": "2023-10-06T19:16:59.073Z",
+        "product": "Lápis de cor - 12 cores",
+        "unitary_price": "22.00",
+        "commission": 4
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "created_at": "2023-10-06T19:17:14.834Z",
+        "updated_at": "2023-10-06T19:17:14.834Z",
+        "product": "Tesoura preta",
+        "unitary_price": "17.80",
+        "commission": 5
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "created_at": "2023-10-06T19:17:34.499Z",
+        "updated_at": "2023-10-06T19:17:34.499Z",
+        "product": "Cola branca liquida",
+        "unitary_price": "12.70",
+        "commission": 5
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "created_at": "2023-10-06T19:18:01.735Z",
+        "updated_at": "2023-10-06T19:18:01.735Z",
+        "product": "Lápis de cor pastel - 12 cores",
+        "unitary_price": "20.90",
+        "commission": 5
+    }
+}
+]
