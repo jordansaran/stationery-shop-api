@@ -2,17 +2,17 @@
     <h2 align="center">
         Papelaria API
     </h2>
-    <a href="https://github.com/jordansaran/sales-api/actions">
-      <img alt="Tests Passing" src="https://github.com/jordansaran/reservation-api/workflows/sales-test-coverage/badge.svg" />
+    <a href="https://github.com/jordansaran/stationery-shop-api/actions">
+      <img alt="Tests Passing" src="https://github.com/jordansaran/stationery-shop-api/workflows/sales-test-coverage/badge.svg" />
     </a>
     <a href="https://codecov.io/gh/jordansaran/sales-api">
-      <img src="https://codecov.io/gh/jordansaran/sales-api/branch/main/graph/badge.svg" />
+      <img src="https://codecov.io/gh/jordansaran/stationery-shop-api/branch/main/graph/badge.svg" />
     </a>
-    <a href="https://github.com/jordansaran/sales-api/issues">
-      <img alt="Issues" src="https://img.shields.io/github/issues/jordansaran/sales-api?color=0088ff" />
+    <a href="https://github.com/jordansaran/stationery-shop-api/issues">
+      <img alt="Issues" src="https://img.shields.io/github/issues/jordansaran/stationery-shop-api?color=0088ff" />
     </a>
-    <a href="https://github.com/jordansaran/sales-api/pulls">
-      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/jordansaran/sales-api?color=0088ff" />
+    <a href="https://github.com/jordansaran/stationery-shop-api/pulls">
+      <img alt="GitHub pull requests" src="https://img.shields.io/github/issues-pr/jordansaran/stationery-shop-api?color=0088ff" />
     </a>
 </p>
 
@@ -26,8 +26,8 @@ Logo abaixo é apresentado opções de instalação de ambiente, sendo:
 
 ````shell
 # clone o repositório
-$ git clone https://github.com/jordansaran/sales-api.git
-$ cd sales-api
+$ git clone https://github.com/jordansaran/stationery-shop-api.git
+$ cd stationery-shop-api
 ````
 
 ## 1.1. Criar ambiente virtual
@@ -51,7 +51,7 @@ $ pip install -r requirements.txt
 Para replicar o ambiente de desenvolvimento e colocar em execução a API, execute o comando logo abaixo. 
 Destacando que é necessário que seu ambiente de desenvolvimento possua [**Docker**](https://www.docker.com/products/docker-desktop/) instalado.
 ```
-docker-compose up sales-api
+docker-compose up stationery-shop-api
 ```
 ### Observações
 A url de acesso a API é **http://127.0.0.1:8000/**, caso deseje alterar a porta de acesso modifique
@@ -95,7 +95,7 @@ $ python manage.py runserver 0.0.0.0:8000
 ## 2.2. Docker
 Apenas execute o seguinte comando para inicializar o container da aplicação via terminal ou IDE para inseir os seeders dentro do banco de dados.
 ````shell
-$ docker-compose start sales-api
+$ docker-compose start stationery-shop-api
 ````
 
 # Documentação
