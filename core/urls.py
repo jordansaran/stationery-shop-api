@@ -14,8 +14,40 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.urls import path
+from django.urls import path, include
+from drf_yasg import openapi
+from drf_yasg.views import get_schema_view
+from rest_framework import routers, permissions
+
+from people.views import ClientViewSet, SellerViewSet
+from products.views import ProductViewSet
+from sales.views import SaleViewSet
+
+router = routers.DefaultRouter()
+router.register(r'client', ClientViewSet, basename="client")
+router.register(r'seller', SellerViewSet, basename="seller")
+router.register(r'product', ProductViewSet, basename="product")
+router.register(r'sale', SaleViewSet, basename="sale")
+
+
+schema_view = get_schema_view(
+   openapi.Info(
+      title="Sale API",
+      default_version='v1.0.0',
+      description="Sale API",
+      terms_of_service="",
+      contact=openapi.Contact(email="contato@sentineltech.com.br"),
+      license=openapi.License(name="MIT License"),
+   ),
+   public=True,
+   permission_classes=[permissions.AllowAny, ],
+)
 
 urlpatterns = [
+    path('', include(router.urls)),
+    path('api-auth/', include('rest_framework.urls', namespace='rest_framework')),
     path('admin/', admin.site.urls),
+    path('swagger<format>/', schema_view.without_ui(cache_timeout=0), name='schema-json'),
+    path('swagger/', schema_view.with_ui('swagger', cache_timeout=0), name='schema-swagger-ui'),
+    path('redoc/', schema_view.with_ui('redoc', cache_timeout=0), name='schema-redoc'),
 ]
