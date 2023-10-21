@@ -3,7 +3,7 @@
         Papelaria API
     </h2>
     <a href="https://github.com/jordansaran/stationery-shop-api/actions">
-      <img alt="Tests Passing" src="https://github.com/jordansaran/stationery-shop-api/workflows/sales-test-coverage/badge.svg" />
+      <img alt="Tests Passing" src="https://github.com/jordansaran/stationery-shop-api/workflows/stationery-shop-api-test-coverage/badge.svg" />
     </a>
     <a href="https://codecov.io/gh/jordansaran/sales-api">
       <img src="https://codecov.io/gh/jordansaran/stationery-shop-api/branch/main/graph/badge.svg" />
