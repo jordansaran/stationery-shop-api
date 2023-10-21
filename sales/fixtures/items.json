@@ -1,0 +1,93 @@
+[
+{
+    "model": "sales.item",
+    "pk": 1,
+    "fields": {
+        "sale": 3,
+        "product": 1,
+        "quantity": 2,
+        "unitary_price_commission": "8.61",
+        "total_product": "17.22",
+        "percentage_commission": "0.05",
+        "commission": "0.86"
+    }
+},
+{
+    "model": "sales.item",
+    "pk": 2,
+    "fields": {
+        "sale": 3,
+        "product": 2,
+        "quantity": 3,
+        "unitary_price_commission": "10.29",
+        "total_product": "30.87",
+        "percentage_commission": "0.05",
+        "commission": "1.54"
+    }
+},
+{
+    "model": "sales.item",
+    "pk": 3,
+    "fields": {
+        "sale": 3,
+        "product": 3,
+        "quantity": 4,
+        "unitary_price_commission": "11.44",
+        "total_product": "45.76",
+        "percentage_commission": "0.04",
+        "commission": "1.83"
+    }
+},
+{
+    "model": "sales.item",
+    "pk": 4,
+    "fields": {
+        "sale": 3,
+        "product": 4,
+        "quantity": 5,
+        "unitary_price_commission": "22.88",
+        "total_product": "114.40",
+        "percentage_commission": "0.04",
+        "commission": "4.58"
+    }
+},
+{
+    "model": "sales.item",
+    "pk": 5,
+    "fields": {
+        "sale": 4,
+        "product": 5,
+        "quantity": 2,
+        "unitary_price_commission": "18.69",
+        "total_product": "37.38",
+        "percentage_commission": "0.05",
+        "commission": "1.87"
+    }
+},
+{
+    "model": "sales.item",
+    "pk": 6,
+    "fields": {
+        "sale": 4,
+        "product": 6,
+        "quantity": 3,
+        "unitary_price_commission": "13.34",
+        "total_product": "40.01",
+        "percentage_commission": "0.05",
+        "commission": "2.00"
+    }
+},
+{
+    "model": "sales.item",
+    "pk": 7,
+    "fields": {
+        "sale": 4,
+        "product": 7,
+        "quantity": 4,
+        "unitary_price_commission": "21.95",
+        "total_product": "87.78",
+        "percentage_commission": "0.05",
+        "commission": "4.39"
+    }
+}
+]

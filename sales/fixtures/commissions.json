@@ -1,0 +1,79 @@
+[
+{
+    "model": "sales.commission",
+    "pk": "08e06390-ed69-4291-89f3-8a2d26dfb42f",
+    "fields": {
+        "created_at": "2023-10-06T19:19:38.453Z",
+        "updated_at": "2023-10-06T19:19:38.453Z",
+        "day_week": 7,
+        "min": 4,
+        "max": 7
+    }
+},
+{
+    "model": "sales.commission",
+    "pk": "303e511f-46ec-4c51-8ef8-844b68f906bf",
+    "fields": {
+        "created_at": "2023-10-06T19:19:30.641Z",
+        "updated_at": "2023-10-06T19:19:30.641Z",
+        "day_week": 4,
+        "min": 1,
+        "max": 4
+    }
+},
+{
+    "model": "sales.commission",
+    "pk": "8e245d1e-6681-4f86-b9b7-4dff6eeaf705",
+    "fields": {
+        "created_at": "2023-10-06T19:19:15.835Z",
+        "updated_at": "2023-10-06T19:19:15.835Z",
+        "day_week": 3,
+        "min": 2,
+        "max": 6
+    }
+},
+{
+    "model": "sales.commission",
+    "pk": "90dd4db0-72b7-48b0-ba15-b1ccf26ef309",
+    "fields": {
+        "created_at": "2023-10-06T19:19:08.511Z",
+        "updated_at": "2023-10-06T19:19:08.511Z",
+        "day_week": 2,
+        "min": 3,
+        "max": 6
+    }
+},
+{
+    "model": "sales.commission",
+    "pk": "9c2ccf51-13ef-4d78-96cc-38d917becfe8",
+    "fields": {
+        "created_at": "2023-10-06T19:18:21.439Z",
+        "updated_at": "2023-10-06T19:18:21.439Z",
+        "day_week": 5,
+        "min": 3,
+        "max": 6
+    }
+},
+{
+    "model": "sales.commission",
+    "pk": "d0c0d312-495c-47d2-971d-410d630677fe",
+    "fields": {
+        "created_at": "2023-10-06T19:18:46.426Z",
+        "updated_at": "2023-10-06T19:18:46.426Z",
+        "day_week": 6,
+        "min": 3,
+        "max": 6
+    }
+},
+{
+    "model": "sales.commission",
+    "pk": "f2db1130-a515-45b8-9e0e-e402a3eb6efc",
+    "fields": {
+        "created_at": "2023-10-06T19:19:01.973Z",
+        "updated_at": "2023-10-06T19:19:01.973Z",
+        "day_week": 1,
+        "min": 3,
+        "max": 5
+    }
+}
+]
