@@ -17,8 +17,7 @@ class People(ModelWithoutIdMixin):
                               null=False,
                               unique=True,
                               verbose_name="Email")
-    phone = models.BigIntegerField(max_length=11,
-                                   null=False,
+    phone = models.BigIntegerField(null=False,
                                    blank=False,
                                    unique=True,
                                    verbose_name="Telefone")
