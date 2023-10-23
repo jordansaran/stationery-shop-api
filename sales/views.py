@@ -109,8 +109,8 @@ class SaleViewSet(CreateAPIView,
                          responses={status.HTTP_200_OK: ReportCommissionSerializer(many=True)})
     @action(detail=False, methods=['get'], url_path="report/commission")
     def report_commission(self, request, *args, **kwargs):
-        date_start = self.request.query_params.get('dateStart')
-        date_end = self.request.query_params.get('dateEnd')
+        date_start = self.request.query_params.get('date_start')
+        date_end = self.request.query_params.get('date_end')
         queryset = get_report_commission(date_start, date_end)
 
         page = self.paginate_queryset(queryset)
