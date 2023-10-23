@@ -33,7 +33,7 @@ router.register(r'sale', SaleViewSet, basename="sale")
 schema_view = get_schema_view(
    openapi.Info(
       title="Stationery Shop API",
-      default_version='v1.0.3',
+      default_version='v1.0.4',
       description="Stationery Shop API",
       terms_of_service="",
       contact=openapi.Contact(email="contato@jordanferreirasaran.com.br"),
