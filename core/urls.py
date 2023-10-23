@@ -27,13 +27,13 @@ router = routers.DefaultRouter()
 router.register(r'client', ClientViewSet, basename="client")
 router.register(r'seller', SellerViewSet, basename="seller")
 router.register(r'product', ProductViewSet, basename="product")
-router.register(r'sale', SaleViewSet, basename="sale")v
+router.register(r'sale', SaleViewSet, basename="sale")
 
 
 schema_view = get_schema_view(
    openapi.Info(
       title="Stationery Shop API",
-      default_version='v1.0.2',
+      default_version='v1.0.3',
       description="Stationery Shop API",
       terms_of_service="",
       contact=openapi.Contact(email="contato@jordanferreirasaran.com.br"),
