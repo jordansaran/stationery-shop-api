@@ -104,7 +104,7 @@ def get_report_sales() -> List[Dict[str, Any]]:
     return [sale_finished.to_dict() for sale_finished in list_sales_finished]
 
 
-def get_report_commission(date_start: str, date_end: str):
+def get_report_commission(date_start: str = None, date_end: str = None):
     sql = ("select DISTINCT "
            "pp.id as id, "
            "pp.name as name, "
